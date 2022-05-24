@@ -9,7 +9,7 @@
 #   need to install tensorflow_hub   pip instal tensorflow_hub
 #
 #
-
+##
 
 
 import numpy as np
@@ -229,7 +229,7 @@ batch_stats_callback = CollectBatchStats()
 #Train the model  with model.fit with the training data
 #
 if do_model_train == 1:
-  history = model.fit(train_ds, epochs=40,
+  history = model.fit(train_ds, epochs=10,
                     callbacks=[batch_stats_callback])
                     
 
